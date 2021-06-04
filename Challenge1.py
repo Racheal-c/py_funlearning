@@ -1,0 +1,12 @@
+print("Today's Date?")
+Date = input()
+print("Breakfast calories?")
+Breakfast_calories = int(input())
+print("Lunch calories?")
+Lunch_calories = int(input())
+print("Dinner calories?")
+Dinner_calories = int(input())
+print("Snack calories?")
+Snack_calories = int(input())
+sum = Breakfast_calories + Lunch_calories + Dinner_calories + Snack_calories
+print("Calorie content for " + Date + " : " + str(sum))
